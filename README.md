@@ -18,15 +18,22 @@ This script automates the setup, funding, deployment, and interaction with a sma
 Clone the repository:
 ```sh
 git clone https://github.com/XE203A/Seismic-deploy.git
-cd Seismic-contract-deployer
+cd Seismic-deploy
 
-next,
+```
+next, 
+
+```sh
 
 chmod +x Seismic-deploy.sh
 
+```
 then,
 
+```sh
 ./deploy_contract.sh
+
+```
 
 • The script will ask for your wallet address and validate it.
 • It will claim test ETH and wait until the funds arrive before deploying.
